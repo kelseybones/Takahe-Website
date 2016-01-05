@@ -50,6 +50,7 @@ body {
     font: 62.5%/1.5,
     color: #000000;     
     text-align:center; 
+    overflow-x: hidden;
 } 
 
 #wrapper {  
@@ -147,8 +148,8 @@ a:hover {
 }
 
 .section-2 {
-    width: 100vw;
     height: 100%;
+    width: 100vw;
     background-color: white;
 }
 
