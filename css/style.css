@@ -139,7 +139,7 @@ nav .links ul li a:hover {
 .section-1 {
 	height: 100vh;
 	width: 100vw;
-	background-image: url(images/background.png);
+	background-image: url(../images/background.png);
 	background-size: cover;
 }
 
