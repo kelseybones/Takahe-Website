@@ -143,6 +143,17 @@ nav .links ul li a:hover {
 	background-size: cover;
 }
 
+.introBox {
+    position: relative;
+    top: 33%;
+    left: 5%;
+	width: 45%;
+    height: 50%;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    border-top: 10px solid #ffd512;
+}
+
 .section-2 {
 	height: 100vh;
 	width: 100%;
