@@ -1,0 +1,112 @@
+*  { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+}
+
+.clear { 
+    clear:both; 
+} 
+
+.right { 
+    float: right; 
+} 
+
+.left { 
+    float: left; 
+}
+
+body { 
+    font: 62.5%/1.5  "Lucida Grande", "Lucida Sans", Tahoma, Verdana, sans-serif; 
+    background: url(/images/wallpaper.png) repeat; 
+    color: #000000;     
+    text-align:center; 
+} 
+
+#wrapper {  
+    width:980px;  
+    text-align:left;   
+    margin-left:auto;  
+    margin-right:auto;  
+    background-color: #FFFFFF; 
+}
+
+h1 { 
+    font-size: 2.2em; 
+} 
+
+h2 { 
+    font-size: 2.0em;     
+} 
+
+h3 { 
+    font-size: 1.8em; 
+} 
+
+h4 { 
+    font-size: 1.6em;     
+} 
+
+h5 { 
+    font-size: 1.4em;     
+} 
+
+p { 
+    font-size: 1.2em;     
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #353535;
+    border-top: 10px solid #353535;
+    border-bottom: 15px solid #353535;
+    text-align: right;
+}
+
+nav ul {
+    text-align: right;
+    list-style-type: none;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li img {
+    display: inline;
+}
+
+a {
+    font-size: 1.4em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    color: #ffd512;
+}
+
+.section-1 {
+    height: 100vh;
+}
+
+.section-2 {
+    height: 100vh;
+    background-color: white;
+}
+
+.introBox {
+    width: 45%;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin: 0px;
+}
+
+.intro {
+    text-align: left;
+}
