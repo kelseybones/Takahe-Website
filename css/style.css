@@ -1,202 +1,188 @@
 @font-face {
-    font-family: BebasNeueBold;
-    src: url('../fonts/BebasNeue Bold.otf');
+	font-family: BebasNeueBold;
+	src: url('../fonts/BebasNeue Bold.otf');
 }
 
 @font-face {
-    font-family: BebasNeueBook;
-    src: url('../fonts/BebasNeue Book.otf');
+	font-family: BebasNeueBook;
+	src: url('../fonts/BebasNeue Book.otf');
 }
 
 @font-face {
-    font-family: BebasNeueLight;
-    src: url('../fonts/BebasNeue Light.otf');
+	font-family: BebasNeueLight;
+	src: url('../fonts/BebasNeue Light.otf');
 }
 
 @font-face {
-    font-family: BebasNeueRegular;
-    src: url('../fonts/BebasNeue Regular.otf');
+	font-family: BebasNeueRegular;
+	src: url('../fonts/BebasNeue Regular.otf');
 }
 
 @font-face {
-    font-family: BebasNeueThin;
-    src: url('../fonts/BebasNeue Thin.otf');
+	font-family: BebasNeueThin;
+	src: url('../fonts/BebasNeue Thin.otf');
 }
 
 @font-face {
-    font-family: MyriadPro;
-    src: url('../fonts/MyriadPro-Regular.otf');
+	font-family: MyriadPro;
+	src: url(../fonts/MyriadPro-Regular.otf);
 }
 
-*  { 
-    margin: 0; 
-    padding: 0; 
-    border: 0; 
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
-.clear { 
-    clear:both; 
-} 
-
-.right { 
-    float: right; 
-} 
-
-.left { 
-    float: left; 
+.clear {
+	clear: both;
 }
 
-body { 
-    font: 62.5%/1.5,
-    color: #000000;     
-    text-align:center; 
-    overflow-x: hidden;
-} 
-
-#wrapper {  
-    width:980px;  
-    text-align:left;   
-    margin-left:auto;  
-    margin-right:auto;  
-    background-color: #FFFFFF; 
+.right {
+	float: right;
 }
 
-h1 { 
-    font-size: 2.2em; 
-    font-family: BebasNeueRegular;
-    letter-spacing: 2px;
-} 
+.left {
+	float: left;
+}
 
-h2 { 
-    font-size: 2.0em;     
-} 
+body {
+	font: 62.5%/1.5,;
+	color: #000;
+	text-align: center;
+	overflow-x: hidden;
+}
 
-h3 { 
-    font-size: 1.8em; 
-} 
+h1 {
+	font-size: 2.2em;
+	font-family: BebasNeueRegular;
+	letter-spacing: 2px;
+}
 
-h4 { 
-    font-size: 1.6em;     
-} 
+h2 {
+	font-size: 2em;
+}
 
-h5 { 
-    font-size: 1.4em;     
-} 
+h3 {
+	font-size: 1.8em;
+}
 
-p { 
-    font-size: 1.2em; 
-    font-family: MyriadPro;
+h4 {
+	font-size: 1.6em;
+}
+
+h5 {
+	font-size: 1.4em;
+}
+
+p {
+	font-size: 1.2em;
+	font-family: MyriadPro;
 }
 
 a {
-    font-family: BebasNeueRegular;
+	font-family: BebasNeueRegular;
 }
 
 q {
-    font-size: 1.6em;
+	font-size: 1.6em;
 }
 
 .align-left {
-    text-align: left;
+	text-align: left;
 }
 
 .align-right {
-    text-align: right;
+	text-align: right;
 }
 
 nav {
-    position: fixed;
-    width: 100%;
-    background-color: #353535;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    text-align: right;
+	position: fixed;
+	width: 100%;
+	background-color: #353535;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: right;
 }
 
 nav .home-button {
-    float: left;
+	float: left;
 }
 
 nav .links {
-    float: right;
-    padding-top: 3px;
+	float: right;
+	padding-top: 3px;
 }
 
 nav .links ul {
-    text-align: right;
-    list-style-type: none;
+	text-align: right;
+	list-style-type: none;
 }
 
 nav .links ul li {
-    display: inline;
-    margin: 20px;
+	display: inline;
+	margin: 20px;
 }
-
-/*
-nav .links ul li img {
-    display: inline;
-}
-*/
 
 nav .links ul li a {
-    font-size: 1.4em;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+	font-size: 1.4em;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 nav .links ul li a:hover {
-    color: #ffd512;
+	color: #ffd512;
 }
 
 .section-1 {
-    height: 100vh;
-    width: 100vw;
-    background-image: url(/images/background.png);
-    background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	background-image: url(/images/background.png);
+	background-size: cover;
 }
 
 .section-2 {
-    height: 100vh;
-    width: 100%;
-    background-color: white;
+	height: 100vh;
+	width: 100%;
+	background-color: #fff;
 }
 
 .boxLeft {
-    width: 45%;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    margin: 0px;
+	width: 45%;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	margin: 0;
 }
 
 .section-3 {
-    height: 100vh;
-    width: 100%;
-    background-color: dimgrey;
-    color: white;
+	height: 100vh;
+	width: 100%;
+	background-color: dimgrey;
+	color: #fff;
 }
 
 .section-4 {
-    height: 70vh;
-    width: 100%;
-    background-image: url(/images/nz.png);
-    color: white;
+	height: 70vh;
+	width: 100%;
+	background-image: url(/images/nz.png);
+	color: #fff;
 }
 
 .quote {
-    width: 50%;
-    padding-left: 25%;
-    padding-top: 10%;
+	width: 50%;
+	padding-left: 25%;
+	padding-top: 10%;
 }
 
 .reference {
-    padding-right: 30%;
+	padding-right: 30%;
 }
 
 .section-6 {
-    height: 100vh;
-    width: 100%;
-    background-color: #fbd42c;
+	height: 100vh;
+	width: 100%;
+	background-color: #fbd42c;
 }
