@@ -89,7 +89,6 @@ p {
 }
 
 a {
-    font-size: 1.4em;
     font-family: BebasNeueRegular;
 }
 
@@ -109,27 +108,37 @@ nav {
     position: fixed;
     width: 100%;
     background-color: #353535;
-    border-top: 10px solid #353535;
-    border-bottom: 15px solid #353535;
+    padding-top: 10px;
+    padding-bottom: 5px;
     text-align: right;
 }
 
-nav ul {
+nav .home-button {
+    float: left;
+}
+
+nav .links {
+    float: right;
+    padding-top: 3px;
+}
+
+nav .links ul {
     text-align: right;
     list-style-type: none;
-
 }
 
-nav ul li {
+nav .links ul li {
     display: inline;
     margin: 20px;
 }
 
-nav ul li img {
+/*
+nav .links ul li img {
     display: inline;
 }
+*/
 
-a {
+nav .links ul li a {
     font-size: 1.4em;
     color: #fff;
     text-decoration: none;
@@ -137,7 +146,7 @@ a {
     letter-spacing: 2px;
 }
 
-a:hover {
+nav .links ul li a:hover {
     color: #ffd512;
 }
 
@@ -163,8 +172,8 @@ a:hover {
 }
 
 .section-3 {
-    width: 100%;
     height: 100vh;
+    width: 100%;
     background-color: dimgrey;
     color: white;
 }
@@ -184,4 +193,10 @@ a:hover {
 
 .reference {
     padding-right: 30%;
+}
+
+.section-5 {
+    height: 84vh;
+    width: 100%;
+    background-color: #fbd42c;
 }
