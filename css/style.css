@@ -289,3 +289,7 @@ nav .links ul li a:hover {
     width: 80%;
     padding-left: 50px;
 }
+
+.details p {
+    font-size: 1em;
+}
