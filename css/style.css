@@ -73,6 +73,7 @@ h4 {
 
 h5 {
 	font-size: 1.4em;
+    font-family: MyriadPro;
 }
 
 p {
@@ -82,6 +83,7 @@ p {
 
 a {
 	font-family: BebasNeueRegular;
+    text-decoration: none;
 }
 
 q {
@@ -145,13 +147,31 @@ nav .links ul li a:hover {
 
 .introBox {
     position: relative;
-    top: 33%;
+    top: 40%;
     left: 5%;
-	width: 45%;
-    height: 50%;
+	width: 40%;
+    height: 40%;
     background: rgba(0,0,0,0.6);
     color: white;
     border-top: 10px solid #ffd512;
+}
+
+.introText {
+    position: absolute;
+    margin: 20px;
+    width: 85%;
+    height: 100%;
+}
+
+.introLink {
+    width: 100px;
+    height: 33px;
+    background-color: black;
+    border-right: 10px solid #ffd512;
+}
+
+.introLink a {
+    color: white;
 }
 
 .section-2 {
@@ -192,8 +212,26 @@ nav .links ul li a:hover {
 	padding-right: 30%;
 }
 
+.section-5 {
+    padding-top: 60px;
+    height: 33vh;
+}
+
 .section-6 {
-	height: 100vh;
+	height: 80vh;
 	width: 100%;
 	background-color: #fbd42c;
+}
+
+.section-7 {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.boxRight {
+    width: 45%;
+    padding-top: 50px;
+    padding-right: 50px;
 }
