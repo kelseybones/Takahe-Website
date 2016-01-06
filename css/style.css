@@ -184,7 +184,7 @@ nav .links ul li a:hover {
 	width: 45%;
 	padding-top: 50px;
 	padding-left: 50px;
-	padding-bottom: 50px;
+/*	padding-bottom: 50px;*/
 	margin: 0;
 }
 
@@ -234,4 +234,11 @@ nav .links ul li a:hover {
     width: 45%;
     padding-top: 50px;
     padding-right: 50px;
+}
+
+.section-8 {
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+    color: black;
 }
