@@ -32,6 +32,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+    box-sizing: border-box;
 }
 
 .clear {
@@ -235,51 +236,58 @@ nav .links ul li a:hover {
 }
 
 .section-2 {
-	height: 100vh;
+/*	height: 100vh;*/
 	width: 100%;
 	background-color: #fff;
 }
 
 .boxLeft {
-	width: 45%;
+	width: 50%;
 	padding-top: 50px;
 	padding-left: 50px;
-	margin: 0;
+    padding-bottom: 50px;
 }
 
 .section-3 {
-	height: 100vh;
+/*	height: 100vh;*/
 	width: 100%;
 	background-color: dimgrey;
 	color: #fff;
 }
 
 .section-4 {
-	height: 70vh;
+	min-height: 70vh;
 	width: 100%;
 	background-image: url(../images/nz.png);
 	color: #fff;
 }
 
 .quote {
-	width: 50%;
-	padding-left: 25%;
-	padding-top: 10%;
+	width: 100%;
+    padding: 10% 20%;
 }
 
 .reference {
-	padding-right: 30%;
+	text-align: right;
+    padding-right: 5%;
 }
 
 .section-5 {
-    padding-top: 60px;
-    height: 33vh;
+    
 }
 
 .section-6 {
-	height: 80vh;
+	min-height: 80vh;
 	width: 100%;
 	background-color: #fbd42c;
+}
+
+.section-6 .bird {
+    width: 50%;
+    min-height: 80vh;
+    background-image: url(../images/mega.png);
+	background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .section-7 {
@@ -290,7 +298,7 @@ nav .links ul li a:hover {
 }
 
 .boxRight {
-    width: 45%;
+    width: 50%;
     padding-top: 50px;
     padding-right: 50px;
 }
@@ -301,7 +309,7 @@ nav .links ul li a:hover {
 }
 
 .section-8 {
-    height: 73vh;
+    min-height: 73vh;
     width: 100%;
     background-color: white;
     color: black;
@@ -312,14 +320,14 @@ nav .links ul li a:hover {
 }
 
 .section-9 {
-	height: 80vh;
+	min-height: 80vh;
 	width: 100%;
 	background-image: url(../images/sky.png);
 	color: #fff;
 }
 
 .section-10 {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: white;
 }
