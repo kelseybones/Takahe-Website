@@ -1,3 +1,9 @@
+$('.introBox').flowtype({
+    minFont : 12,
+    maxFont : 20
+});
+
+
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 4,
