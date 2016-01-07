@@ -163,11 +163,16 @@ nav .links ul li a:hover {
     border-top: 10px solid #ffd512;
 }
 
-.introText {
-    position: absolute;
+.introBox .introText {
     margin: 20px;
     width: 85%;
-    height: 100%;
+}
+
+.introBox .readMore {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
 }
 
 .button {
@@ -197,6 +202,7 @@ nav .links ul li a:hover {
     transition-duration: 0.3s;
 }
 
+
 .hvr-sweep-to-left:before {
     content: "";
     position: absolute;
@@ -221,6 +227,7 @@ nav .links ul li a:hover {
 .hvr-sweep-to-left:hover, .hvr-sweep-to-left:focus, .hvr-sweep-to-left:active {
     color: black;
 }
+
 .hvr-sweep-to-left:hover:before, .hvr-sweep-to-left:focus:before, .hvr-sweep-to-left:active:before {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
