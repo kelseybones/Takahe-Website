@@ -174,11 +174,6 @@ nav .links ul li a:hover {
     border-right: solid #ffd512 10px;
 }
 
-.button:hover {
-    color: #ffd512;
-}
-
-
 /* Sweep To Left */
 .hvr-sweep-to-left {
     display: inline-block;
@@ -195,6 +190,7 @@ nav .links ul li a:hover {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
+
 .hvr-sweep-to-left:before {
     content: "";
     position: absolute;
@@ -215,6 +211,7 @@ nav .links ul li a:hover {
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
+
 .hvr-sweep-to-left:hover, .hvr-sweep-to-left:focus, .hvr-sweep-to-left:active {
     color: black;
 }
@@ -297,7 +294,7 @@ nav .links ul li a:hover {
 }
 
 .section-9 {
-	height: 100vh;
+	height: 80vh;
 	width: 100%;
 	background-image: url(../images/sky.png);
 	color: #fff;
