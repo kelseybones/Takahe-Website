@@ -232,7 +232,6 @@ nav .links ul li a:hover {
           transform: scaleX(1);
 }
 .parallax .section-2 {
-  /*  height: 100vh;*/
   width: 100%;
   background-color: #fff;
 }
@@ -249,7 +248,6 @@ nav .links ul li a:hover {
   width: 50%;
 }
 .parallax .section-4 {
-  min-height: 70vh;
   width: 100%;
   background-image: url(../images/nz.png);
   color: #fff;
@@ -331,7 +329,6 @@ nav .links ul li a:hover {
   border-right: 0px;
 }
 .parallax .section-6 {
-  min-height: 80vh;
   width: 100%;
   background-color: #fbd42c;
   -webkit-box-pack: justify;
@@ -341,7 +338,6 @@ nav .links ul li a:hover {
 }
 .parallax .section-6 .bird {
   width: 33%;
-  min-height: 80vh;
   background-image: url(../images/mega.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -357,7 +353,6 @@ nav .links ul li a:hover {
   height: 100%;
 }
 .parallax .section-8 {
-  min-height: 73vh;
   width: 100%;
   background-color: white;
   color: black;
@@ -371,7 +366,6 @@ nav .links ul li a:hover {
           align-items: stretch;
 }
 .parallax .section-9 {
-  min-height: 80vh;
   width: 100%;
   background-image: url(../images/sky.png);
   background-repeat: no-repeat;
@@ -382,10 +376,11 @@ nav .links ul li a:hover {
   -webkit-flex-direction: row-reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+.parallax .section-9 .box {
   padding-bottom: 50px;
 }
 .parallax .section-10 {
-  min-height: 100vh;
   width: 100%;
   background-color: white;
   -webkit-box-align: stretch;
@@ -403,7 +398,6 @@ nav .links ul li a:hover {
   margin-right: 50px;
 }
 .parallax .section-11 {
-  height: 15vh;
   width: 100%;
   background-color: #011118;
   color: white;
