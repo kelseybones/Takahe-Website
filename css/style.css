@@ -402,7 +402,7 @@ nav .links ul li a:hover {
   width: 100%;
   background-image: url(../images/sky.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 120%;
   color: #fff;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -437,15 +437,16 @@ nav .links ul li a:hover {
 }
 .parallax .section-11 .asterix {
   width: 80%;
-  padding-left: 50px;
+  padding: 50px;
 }
 .parallax .section-12 {
   background-color: black;
   color: white;
+  padding: 50px;
 }
 .parallax .section-12 .details {
   width: 80%;
-  padding-left: 50px;
+  padding-left: 50px 0;
 }
 .parallax .section-12 .details p {
   font-size: 1em;
