@@ -160,6 +160,39 @@ nav .links ul li a:hover {
   background: rgba(0, 0, 0, 0.6);
   color: white;
   border-top: 10px solid #ffd512;
+  overflow: hidden;
+  -webkit-animation: growIntroBox;
+          animation: growIntroBox;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+@-webkit-keyframes growIntroBox {
+  0% {
+    max-height: 0px;
+    opacity: 0;
+  }
+  5% {
+    max-height: 0px;
+    opacity: 1;
+  }
+  100% {
+    max-height: 1000px;
+    opacity: 1;
+  }
+}
+@keyframes growIntroBox {
+  0% {
+    max-height: 0px;
+    opacity: 0;
+  }
+  5% {
+    max-height: 0px;
+    opacity: 1;
+  }
+  100% {
+    max-height: 1000px;
+    opacity: 1;
+  }
 }
 .section-1 .introBox .introText {
   margin: 20px;
