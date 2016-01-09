@@ -274,6 +274,7 @@ nav .links ul li a:hover {
 	width: 100%;
 	background-color: dimgrey;
 	color: #fff;
+    align-items: flex-end;
 }
 
 .section-3 .bird {
@@ -298,7 +299,7 @@ nav .links ul li a:hover {
 }
 
 .section-5 {
-    
+    justify-content: space-between;
 }
 
 .align-right {
@@ -385,6 +386,7 @@ td:last-child {
 	min-height: 80vh;
 	width: 100%;
 	background-color: #fbd42c;
+    justify-content: space-between;
 }
 
 .section-6 .bird {
@@ -419,10 +421,12 @@ td:last-child {
     width: 100%;
     background-color: white;
     color: black;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .pipe {
-    height: 100%;
+    
 }
 
 .section-9 {
@@ -436,11 +440,11 @@ td:last-child {
     min-height: 100vh;
     width: 100%;
     background-color: white;
+    align-items: stretch;
 }
 
 .fastFacts {
     width: 50%;
-    height: 100%;
     background-color: #4d6234;
     color: white;
 }
