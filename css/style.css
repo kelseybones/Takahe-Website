@@ -39,19 +39,27 @@
   float: left;
 }
 .flexbox {
-  display: -ms-flex;
+  display: -webkit-box;
   display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 }
 .flexbox-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
   -webkit-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 .flexbox-centre-horizontally-vertically {
+  -webkit-box-align: center;
   -webkit-align-items: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
   -webkit-justify-content: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .boxLeft {
   width: 50%;
@@ -80,15 +88,6 @@ h1 {
   font-family: BebasNeueRegular;
   letter-spacing: 2px;
 }
-h2 {
-  font-size: 2em;
-}
-h3 {
-  font-size: 1.8em;
-}
-h4 {
-  font-size: 1.6em;
-}
 h5 {
   font-size: 1.4em;
   font-family: MyriadPro;
@@ -101,7 +100,8 @@ a {
   font-family: BebasNeueRegular;
   text-decoration: none;
   color: white;
-  transition: color 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+          transition: color 0.5s ease;
 }
 a:hover {
   color: #ffd512;
@@ -145,7 +145,8 @@ nav .links ul li a {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
-  transition: color 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+          transition: color 0.5s ease;
 }
 nav .links ul li a:hover {
   color: #ffd512;
@@ -185,23 +186,24 @@ nav .links ul li a:hover {
   background-color: #000;
   text-decoration: none;
   color: white;
-  transition: color 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+          transition: color 0.5s ease;
   border-right: solid #ffd512 10px;
 }
 .section-1 .introBox .readMore .hvr-sweep-to-left {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
-  transform: translateZ(0);
+          transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+          backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   -webkit-transition-property: color;
-  transition-property: color;
+          transition-property: color;
   -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 .section-1 .introBox .readMore .hvr-sweep-to-left:before {
   content: "";
@@ -213,15 +215,17 @@ nav .links ul li a:hover {
   bottom: 0;
   background: #ffd512;
   -webkit-transform: scaleX(0);
-  transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
   -webkit-transform-origin: 100% 50%;
-  transform-origin: 100% 50%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+      -ms-transform-origin: 100% 50%;
+          transform-origin: 100% 50%;
+  -webkit-transition-property: -webkit-transform;
+          transition-property: transform;
   -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+          transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
 }
 .section-1 .introBox .readMore .hvr-sweep-to-left:hover,
 .section-1 .introBox .readMore .hvr-sweep-to-left:focus,
@@ -232,7 +236,8 @@ nav .links ul li a:hover {
 .section-1 .introBox .readMore .hvr-sweep-to-left:focus:before,
 .section-1 .introBox .readMore .hvr-sweep-to-left:active:before {
   -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
 }
 .parallax .section-2 {
   /*  height: 100vh;*/
@@ -243,7 +248,10 @@ nav .links ul li a:hover {
   width: 100%;
   background-color: dimgrey;
   color: #fff;
-  align-items: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 .parallax .section-3 .bird {
   width: 50%;
@@ -263,7 +271,10 @@ nav .links ul li a:hover {
   padding-right: 5%;
 }
 .parallax .section-5 {
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .parallax .section-5 .table {
   background: white;
@@ -331,7 +342,10 @@ nav .links ul li a:hover {
   min-height: 80vh;
   width: 100%;
   background-color: #fbd42c;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .parallax .section-6 .bird {
   width: 33%;
@@ -355,8 +369,14 @@ nav .links ul li a:hover {
   width: 100%;
   background-color: white;
   color: black;
-  justify-content: space-between;
-  align-items: stretch;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 .parallax .section-9 {
   min-height: 80vh;
@@ -368,7 +388,10 @@ nav .links ul li a:hover {
   min-height: 100vh;
   width: 100%;
   background-color: white;
-  align-items: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 .parallax .section-10 .fastFacts {
   width: 50%;
@@ -400,3 +423,4 @@ nav .links ul li a:hover {
 .parallax .section-12 .details p {
   font-size: 1em;
 }
+/*# sourceMappingURL=style.css.map */
