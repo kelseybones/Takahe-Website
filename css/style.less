@@ -449,12 +449,20 @@ nav {
 		// clouds
 //		 min-height: 80vh;
 		width: 100%;
-		background-image: url(../images/sky.png);
-        background-repeat: no-repeat;
-        background-size: 120%;
-//        background-size: cover;
 		color: #fff;
         flex-direction: row-reverse;
+        
+        position: relative;
+        
+        .background {
+            background-image: url(../images/sky.png);
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: -20%;
+            z-index: -1;
+        }
         
         .box {
             padding-bottom: 50px;
