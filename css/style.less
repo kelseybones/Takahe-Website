@@ -126,6 +126,14 @@ nav {
 	padding-bottom: 5px;
 	text-align: right;
 	z-index: 10;
+    overflow: hidden;
+    animation: slideDownNav;
+    animation-duration: 0.3s;
+    
+    @keyframes slideDownNav {
+        0%   { top: -50px; }
+        100% { top: 0; }
+    }
 
 	.home-button {
 		float: left;
@@ -179,12 +187,13 @@ nav {
 		border-top: 10px solid #ffd512;
         overflow: hidden;
         animation: growIntroBox;
-        animation-duration: 3s;
+        animation-duration: 2s;
         
         @keyframes growIntroBox {
             0%   {max-height: 0px; opacity: 0;}
-            5%  {max-height: 0px; opacity: 1;}
-            100% {max-height: 1000px; opacity: 1;}
+            15%   {max-height: 0px; opacity: 0;}
+            35%  {max-height: 0px; opacity: 1;}
+            100% {max-height: 500px; opacity: 1;}
         }
 
 		.introText {
