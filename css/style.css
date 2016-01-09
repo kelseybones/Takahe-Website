@@ -311,8 +311,17 @@ nav .links ul li a:hover {
 }
 .parallax .section-4 {
   width: 100%;
-  background-image: url(../images/nz.png);
   color: #fff;
+  position: relative;
+}
+.parallax .section-4 .background {
+  background-image: url(../images/nz.png);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: -20%;
+  z-index: -1;
 }
 .parallax .section-4 .quote {
   width: 100%;
