@@ -47,6 +47,17 @@
 	float: left;
 }
 
+.flexbox {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.flexbox-row {
+    -webkit-flex-direction: row;
+   flex-direction: row;
+}
+
 body {
 /*    font-size: 1vw;*/
 	color: #000;
