@@ -298,6 +298,10 @@ nav .links ul li a:hover {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .parallax .section-5 .table {
   background: white;
@@ -374,6 +378,7 @@ nav .links ul li a:hover {
   background-image: url(../images/mega.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: 40%;
 }
 .parallax .section-7 {
   height: 80vh;
@@ -397,6 +402,12 @@ nav .links ul li a:hover {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+}
+.parallax .section-8 .pipe {
+  width: 50%;
+  background-image: url(../images/bent-billiard-pipe.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .parallax .section-9 {
   width: 100%;

@@ -289,6 +289,7 @@ nav {
 	.section-5 {
 		// table
 		justify-content: space-between;
+        align-items: center;
 
 		.table {
 			background: white;
@@ -373,6 +374,12 @@ nav {
 		width: 100%;
 		background-color: #fbd42c;
 		justify-content: space-between;
+        
+//        @media screen and (max-width: 1024px) {
+//            .box {
+//                width: 66%;
+//            }
+//        }
 
 		.bird {
 			width: 33%;
@@ -380,6 +387,7 @@ nav {
 			background-image: url(../images/mega.png);
 			background-size: cover;
 			background-repeat: no-repeat;
+            background-position-x: 40%;//Needs a media query below a certain size (1024pxish?)
 		}
 	}
 
@@ -406,7 +414,11 @@ nav {
 		align-items: stretch;
 
 		.pipe {
-
+            width: 50%;
+            background-image: url(../images/bent-billiard-pipe.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+//            background-position-x: 40%;//Needs a media query below a certain size (1024pxish?)
 		}
 	}
 
