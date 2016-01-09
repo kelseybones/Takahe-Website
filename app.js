@@ -3,7 +3,7 @@ $('.introBox').flowtype({
     maxFont : 20
 });
 
-$('.box').flowtype({
+$('.box, .quote').flowtype({
     minFont : 10,
     maxFont : 16
 });

@@ -73,7 +73,7 @@ body {
   color: #000;
   text-align: center;
   overflow-x: hidden;
-  background-color: white;
+  background-color: black;
 }
 h1 {
   font-size: 2.2em;
@@ -294,6 +294,7 @@ nav .links ul li a:hover {
   padding-right: 5%;
 }
 .parallax .section-5 {
+  background-color: white;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
@@ -308,6 +309,7 @@ nav .links ul li a:hover {
   border-radius: 3px;
   border-collapse: collapse;
   padding: 5px;
+  font-family: MyriadPro;
 }
 .parallax .section-5 th {
   color: #D5DDE5;
@@ -317,6 +319,8 @@ nav .links ul li a:hover {
   padding: 10px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   vertical-align: middle;
+  font-family: BebasNeueRegular;
+  letter-spacing: 2px;
 }
 .parallax .section-5 th:first-child {
   border-top-left-radius: 3px;
@@ -434,6 +438,7 @@ nav .links ul li a:hover {
 }
 .parallax .section-10 .fastFacts {
   width: 50%;
+  padding: 0;
   background-color: #4d6234;
   color: white;
 }
