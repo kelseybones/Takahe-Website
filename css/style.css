@@ -375,6 +375,11 @@ nav .links ul li a:hover {
   width: 100%;
   background-image: url(../images/sky.png);
   color: #fff;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 .parallax .section-10 {
   min-height: 100vh;
