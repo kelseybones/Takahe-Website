@@ -113,13 +113,16 @@ nav {
   background-color: #353535;
   padding-top: 10px;
   padding-bottom: 5px;
-  text-align: right;
   z-index: 10;
   overflow: hidden;
   -webkit-animation: slideDownNav;
           animation: slideDownNav;
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 @-webkit-keyframes slideDownNav {
   0% {
@@ -137,11 +140,7 @@ nav {
     top: 0;
   }
 }
-nav .home-button {
-  float: left;
-}
 nav .links {
-  float: right;
   padding-top: 3px;
 }
 nav .links ul {
@@ -163,6 +162,15 @@ nav .links ul li a {
 }
 nav .links ul li a:hover {
   color: #ffd512;
+}
+nav .links ul hr {
+  height: .25rem;
+  width: 15%;
+  margin: 0;
+  background: #ffd512;
+  border: none;
+  -webkit-transition: 0.3s ease-in-out;
+          transition: 0.3s ease-in-out;
 }
 .section-1 {
   height: 100vh;

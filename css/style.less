@@ -123,7 +123,6 @@ nav {
 	background-color: #353535;
 	padding-top: 10px;
 	padding-bottom: 5px;
-	text-align: right;
 	z-index: 10;
     overflow: hidden;
     animation: slideDownNav;
@@ -133,13 +132,14 @@ nav {
         0%   { top: -50px; }
         100% { top: 0; }
     }
+    
+    justify-content: space-between;
 
 	.home-button {
-		float: left;
+
 	}
 
 	.links {
-		float: right;
 		padding-top: 3px;
 
 		ul {
@@ -163,6 +163,15 @@ nav {
 					color: #ffd512;
 				}
 			}
+            
+            hr {
+                height: .25rem;
+                width: 15%;
+                margin: 0;
+                background: #ffd512;
+                border: none;
+                transition: .3s ease-in-out;
+            }
 		}
 	}
 }
