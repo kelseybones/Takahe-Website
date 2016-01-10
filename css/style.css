@@ -353,37 +353,19 @@ nav .links ul li a:hover {
   color: #D5DDE5;
   background: #1b1e24;
   border-bottom: 4px solid #9ea7af;
-  border-right: 1px solid #343a45;
   padding: 10px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   vertical-align: middle;
   font-family: BebasNeueRegular;
   letter-spacing: 2px;
 }
-.parallax .section-5 th:first-child {
-  border-top-left-radius: 3px;
-}
-.parallax .section-5 th:last-child {
-  border-top-right-radius: 3px;
-  border-right: none;
-}
 .parallax .section-5 tr {
-  border-top: 1px solid #C1C3D1;
-  border-bottom-: 1px solid #C1C3D1;
-  color: #666B85;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
 }
 .parallax .section-5 tr:hover td {
   background: #4E5066;
   color: #FFFFFF;
-  border-top: 1px solid #22262e;
   border-bottom: 1px solid #22262e;
-}
-.parallax .section-5 tr:first-child {
-  border-top: none;
-}
-.parallax .section-5 tr:last-child {
-  border-bottom: none;
 }
 .parallax .section-5 tr:nth-child(odd) td {
   background: #EBEBEB;
@@ -391,21 +373,11 @@ nav .links ul li a:hover {
 .parallax .section-5 tr:nth-child(odd):hover td {
   background: #4E5066;
 }
-.parallax .section-5 tr:last-child td:first-child {
-  border-bottom-left-radius: 3px;
-}
-.parallax .section-5 tr:last-child td:last-child {
-  border-bottom-right-radius: 3px;
-}
 .parallax .section-5 td {
   background: #FFFFFF;
   padding: 10px;
   vertical-align: middle;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
-  border-right: 1px solid #C1C3D1;
-}
-.parallax .section-5 td:last-child {
-  border-right: 0px;
 }
 .parallax .section-6 {
   width: 100%;
