@@ -435,11 +435,12 @@ nav .links ul li a:hover {
 }
 .parallax .section-9 .background {
   background-image: url(../images/sky.png);
+  background-repeat: no-repeat;
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
-  bottom: -20%;
+  bottom: -75%;
   z-index: -1;
 }
 .parallax .section-9 .box {
