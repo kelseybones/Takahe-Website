@@ -75,4 +75,6 @@ function initMap() {
 }
 
 var s = skrollr.init({forceHeight: false});
+smoothScroll.init();
+
 highlightNavLink($('nav .links li:nth-child(1)'));

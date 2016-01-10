@@ -9,25 +9,25 @@
 	<header>
 		<nav class="flexbox flexbox-row">
 			<div class="home-button">
-				<a href="index.html"><img src="images/National-Geographic-logo.png" width=
+				<a data-scroll href="index.html"><img src="images/National-Geographic-logo.png" width=
 				"100px"></a>
 			</div>
 			<div class="links">
 				<ul>
 					<li>
-						<a href="#home">Home</a>
+						<a data-scroll href="#home">Home</a>
 					</li>
 					<li>
-						<a href="#intro">Intro</a>
+						<a data-scroll data-options='{"offset": 280 }' href="#intro">Intro</a>
 					</li>
 					<li>
-						<a href="#bird">The Bird</a>
+						<a data-scroll data-options='{"offset": 280 }' href="#bird">The Bird</a>
 					</li>
 					<li>
-						<a href="#journey">The Journey</a>
+						<a data-scroll data-options='{"offset": 280 }' href="#journey">The Journey</a>
 					</li>
 					<li>
-						<a href="#newzeland">New Zealand</a>
+						<a data-scroll data-options='{"offset": 280 }' href="#newzeland">New Zealand</a>
 					</li>
                     <hr />
 				</ul>
@@ -47,7 +47,7 @@
 				Government.</h5>
 			</div>
 			<div class="readMore">
-				<a class="button hvr-sweep-to-left" href="#intro">Read More</a>
+				<a data-scroll data-options='{"offset": 280 }' class="button hvr-sweep-to-left" href="#intro">Read More</a>
 			</div>
 		</div>
 	</section>
@@ -198,7 +198,7 @@ data-0-bottom-top: When the element's top is at the bottom of the viewport, thus
                 <p>Before the arrival of Capt. James Cook in 1769, birds
                 were the dominant land vertebrates. The only land mammals were the dog, a
                 Polynesian rat, and two species of bats. The dog and rat had been introduced
-                by the Maoris on their second migration, about A. D. 1150. <a href="#asterisk">*</a></p><br>
+                by the Maoris on their second migration, about A. D. 1150. <a data-scroll href="#asterisk">*</a></p><br>
                 <br>
                 <p>After the Maoris had caused the extinction of the huge
                 flightless moa, one species of which was twelve feet high, European
@@ -406,6 +406,7 @@ data-0-bottom-top: When the element's top is at the bottom of the viewport, thus
     <script src="flowtype.js"></script>
     <script type="text/javascript" src="skrollr.min.js"></script>
     <script src="jquery.waypoints.min.js"></script>
+    <script src="smooth-scroll.min.js"></script>
     <script src="app.js"></script>
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA50TLHl9uxDicLtGIkDIW5ncESKDCi6v8&callback=initMap">
