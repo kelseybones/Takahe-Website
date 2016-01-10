@@ -193,6 +193,8 @@ nav {
         left: 0;
         right: 0;
         z-index: -1;
+        animation: fadeIn;
+        animation-duration: 0.5s;
         
         img {
             width: 100%;
@@ -222,6 +224,9 @@ nav {
             background-size: cover;
             background-repeat: no-repeat;
         }
+        
+        @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
     }
 
 	.introBox {

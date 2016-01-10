@@ -184,6 +184,10 @@ nav .links ul hr {
   left: 0;
   right: 0;
   z-index: -1;
+  -webkit-animation: fadeIn;
+          animation: fadeIn;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
 }
 .section-1 .parallaxBg img {
   width: 100%;
@@ -208,6 +212,22 @@ nav .links ul hr {
   background-image: url(../images/landscape-foreground.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .section-1 .introBox {
   position: relative;
