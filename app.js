@@ -27,6 +27,41 @@ $('nav .links li').click(function() {
     highlightNavLink(clickedLink);
 });
 
+$('#home').waypoint({
+    handler: function(direction) {
+        highlightNavLink($('nav .links li:nth-child(1)'));
+    },
+    offset: -100
+})
+
+$('#intro').waypoint({
+    handler: function(direction) {
+        highlightNavLink($('nav .links li:nth-child(2)'));
+    },
+    offset: 280
+})
+
+$('#bird').waypoint({
+    handler: function(direction) {
+        highlightNavLink($('nav .links li:nth-child(3)'));
+    },
+    offset: 300
+})
+
+$('#journey').waypoint({
+    handler: function(direction) {
+        highlightNavLink($('nav .links li:nth-child(4)'));
+    },
+    offset: 300
+})
+
+$('#newzeland').waypoint({
+    handler: function(direction) {
+        highlightNavLink($('nav .links li:nth-child(5)'));
+    },
+    offset: 300
+})
+
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 4,
