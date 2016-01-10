@@ -1,13 +1,3 @@
-$('.introBox').flowtype({
-    minFont : 12,
-    maxFont : 20
-});
-
-$('.box, .quote').flowtype({
-    minFont : 10,
-    maxFont : 16
-});
-
 function highlightNavLink(linkToHighlight) {
     var linksContainer = $('nav .links');
     var linksContainerLeftPosition = linksContainer.position().left;
@@ -21,6 +11,18 @@ function highlightNavLink(linkToHighlight) {
         marginLeft : (linkPosition - linksContainerLeftPosition) + 18 + "px"
     });
 }
+
+$('.introBox').flowtype({
+    minFont : 12,
+    maxFont : 20
+});
+
+$('.box, .quote').flowtype({
+    minFont : 10,
+    maxFont : 16
+});
+
+$('.section-1 .parallaxBg .scene').parallax();
 
 $('nav .links li').click(function() {
     var clickedLink = $(this);

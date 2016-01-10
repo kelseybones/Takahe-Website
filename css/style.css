@@ -175,10 +175,39 @@ nav .links ul hr {
 .section-1 {
   height: 100vh;
   width: 100vw;
-  background-image: url(../images/background.png);
+  position: relative;
+}
+.section-1 .parallaxBg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.section-1 .parallaxBg img {
+  width: 100%;
+  height: 100%;
+}
+.section-1 .parallaxBg .layer {
+  width: 100%;
+  height: 100vh;
+}
+.section-1 .parallaxBg .layer:nth-child(1) {
+  background-image: url(../images/landscape-background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 0;
+}
+.section-1 .parallaxBg .layer:nth-child(2) {
+  background-image: url(../images/natgeo-large.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.section-1 .parallaxBg .layer:nth-child(3) {
+  background-image: url(../images/landscape-foreground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .section-1 .introBox {
   position: relative;
