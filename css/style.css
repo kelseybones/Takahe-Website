@@ -516,14 +516,17 @@ nav .links ul hr {
           align-items: stretch;
 }
 .parallax .section-10 .fastFacts {
-  width: 50%;
+  width: 33%;
   padding: 0;
   background-color: #4d6234;
   color: white;
 }
 .parallax .section-10 .fastFacts .factsType {
   margin-top: 50px;
-  margin-right: 50px;
+  margin-left: 50px;
+}
+.parallax .section-10 .fastFacts .factsType .colour {
+  color: #fbd42c;
 }
 .parallax .section-11 {
   width: 100%;
