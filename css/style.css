@@ -514,6 +514,10 @@ nav .links ul hr {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .parallax .section-10 .fastFacts {
   width: 33%;
