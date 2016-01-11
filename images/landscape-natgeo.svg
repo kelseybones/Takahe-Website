@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1283" height="720" viewBox="0 0 1283 720">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fbd42c;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="722" y="77" width="429" height="592" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="10.333" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-opacity="0.09"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Nat_Geo_rect" data-name="Nat Geo rect" class="cls-1" d="M754.75,108.984h363.19V635.766H754.75V108.984Zm52.391,53.3H1064.66V582.453H807.141V162.281Z"/>
+</svg>

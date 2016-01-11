@@ -203,7 +203,7 @@ nav .links ul hr {
   background-repeat: no-repeat;
 }
 .section-1 .parallaxBg .layer:nth-child(2) {
-  background-image: url(../images/natgeo-large.png);
+  background-image: url(../images/landscape-natgeo.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right top;
